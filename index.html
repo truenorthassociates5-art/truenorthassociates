@@ -24,7 +24,24 @@
 <a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#countries">Countries</a>
-<a href="#gallery">Gallery</a>
+<a <section class="gallery">
+    <h2>Our Office Gallery</h2>
+
+    <div class="gallery-container">
+
+        <img src="office1.jpg" onclick="openImage(this.src)">
+        <img src="office2.jpg" onclick="openImage(this.src)">
+        <img src="office3.jpg" onclick="openImage(this.src)">
+        <img src="office4.jpg" onclick="openImage(this.src)">
+        <img src="office5.jpg" onclick="openImage(this.src)">
+        <img src="office6.jpg" onclick="openImage(this.src)">
+
+    </div>
+</section>
+
+<div id="popup" class="popup" onclick="closeImage()">
+    <img id="popup-img">
+</div>
 <a href="#contact">Contact</a>
 </nav>
 

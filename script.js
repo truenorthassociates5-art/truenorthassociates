@@ -28,4 +28,18 @@ window.addEventListener('scroll', function(){
         header.style.boxShadow = "none";
     }
 
-});
+});function openImage(src){
+    document.getElementById("popup").style.display="flex";
+    document.getElementById("popup-img").src=src;
+}
+
+function closeImage(){
+    document.getElementById("popup").style.display="none";
+}function openImage(src){
+    document.getElementById("popup").style.display="flex";
+    document.getElementById("popup-img").src=src;
+}
+
+function closeImage(){
+    document.getElementById("popup").style.display="none";
+}
